@@ -1,0 +1,47 @@
+table {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  border-top: 2px solid #006E48;
+  width: 100%;
+  justify-content: flex-end;
+  background-color: #FFF;
+}
+
+footer button {
+  background-color: #00754D;
+  color: #FFF;
+  margin: 10px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+
+}
+
+.table-container {
+  height: 300px;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.table-edit {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+th.mat-header-cell {
+  text-align: left;
+  background-color: #c9c9c9;
+  color: black;
+  font-weight: bold;
+}
+
+

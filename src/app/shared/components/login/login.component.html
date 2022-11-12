@@ -1,0 +1,35 @@
+<div mat-dialog-content>
+  <h2>Inicio de sesión</h2>
+</div>
+
+<form [formGroup]="form">
+
+  <div class="card-row">
+    <div class="card-field">
+      <mat-label>Usuario</mat-label>
+      <mat-form-field appearance="fill">
+        <input matInput formControlName="usuario" autocomplete="off" />
+      </mat-form-field>
+    </div>
+    <div class="card-field">
+      <mat-label>Contraseña</mat-label>
+      <mat-form-field appearance="fill">
+        <input matInput type="password" formControlName="contraseña" autocomplete="off" />
+      </mat-form-field>
+    </div>
+  </div>
+
+  <div class="card-actions" mat-dialog-actions>
+    <button mat-raised-button [mat-dialog-close]="false">Cancelar</button>
+    <button
+      [disabled]="form.invalid"
+      [mat-dialog-close]="form"
+      type="submit"
+      mat-raised-button
+      (click)="login()"
+    >
+      Guardar
+    </button>
+  </div>
+
+</form>

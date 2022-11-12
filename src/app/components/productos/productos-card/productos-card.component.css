@@ -1,0 +1,14 @@
+h1 {
+  margin: 32px 48px;
+  font-size: 48px;
+}
+
+button {
+  background-color: #00754D;
+  color: #FFF;
+}
+
+.card {
+  margin: auto;
+  width: 250px;
+}
