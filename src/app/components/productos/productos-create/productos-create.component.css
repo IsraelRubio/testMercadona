@@ -1,0 +1,32 @@
+button {
+  color: #fff;
+}
+
+button:first-child {
+  background-color: #4F4C4C;
+}
+
+button:nth-child(2) {
+  background-color: #006e48;
+}
+
+
+.card-row {
+  display: flex;
+  gap: 10px;
+}
+
+.card-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card-actions {
+  justify-content: space-between;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+

@@ -1,0 +1,15 @@
+<h1>Bienvenido</h1>
+
+<mat-card class="card">
+  <mat-card-title>Tornillos</mat-card-title>
+  <mat-card-content>
+    <p>{{ productos.length }} por revisar</p>
+
+  </mat-card-content>
+  <mat-divider inset></mat-divider>
+  <mat-card-actions align="end" [routerLink]="['/card/productos']">
+    <button mat-raised-button>
+      <mat-icon>visibility</mat-icon> Revisar
+    </button>
+  </mat-card-actions>
+</mat-card>
